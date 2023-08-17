@@ -1,16 +1,15 @@
 body {
-    margin: 0; /* Stripping out margin and padding so .bg can be full width*/
+    margin: 0; /* amncr */
     padding: 0;
   }
 .logo {
-    box-sizing: border-box; /*Not necessary in this situation*/
-    display: block; /*Not necessary, but we do want it this way*/
-    width: 100vw;  /*Not necessary, but we do want it this way*/
-    height: 100vh; /*Necessary.  100vh = 100% of the viewport height*/
-    padding: 0; /* No padding */
-    margin: 0; /* No margins */
-    background: url('./images/logo/logo explorer.png') no-repeat center center;  
-    /* Shorthand: image, repeat, X align, Y align. */
-    background-size: contain; /* Cover all available space*/
+    box-sizing: border-box;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: url('./images/logo/logo explorer.png') no-repeat center center;
+    background-size: contain;
     background-color: black;
   }
